@@ -3,4 +3,6 @@ ART-CHARTER-001,Termo do Piloto,charter,PMO Agentico,v0.1,draft,pilot-charter.md
 ART-RACI-001,RACI do Piloto,governance,PMO Agentico,v0.1,draft,governance/raci.md,,per cycle,
 ART-HITL-001,Politica HITL,governance,PMO Agentico,v0.1,draft,governance/hitl-policy.md,,monthly,
 ART-DASH-001,Dashboard Executivo Inicial,dashboard,PMO Agentico,v0.1,draft,dashboards/executive-dashboard-spec.md,,per cycle,
-
+ART-F2-001,Fase 2 Operational Deep Dive,methodology,PMO Lead,v1.0,draft,phase-2-operational-deep-dive.md,,per cycle,
+ART-F2-DASH-001,Dashboard de Sucesso do Piloto,dashboard,Tech Lead,v1.0,draft,dashboards/pilot-success-dashboard/pilot-success-dashboard-spec.md,,per cycle,
+ART-F2-REV-001,Agent Output Review Log,governance,PMO Lead,v1.0,draft,governance/agent-output-review-log.csv,,weekly,

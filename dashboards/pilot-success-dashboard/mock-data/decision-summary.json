@@ -1,0 +1,9 @@
+{
+  "decisions_taken": 0,
+  "decisions_pending": 0,
+  "critical_decisions": 0,
+  "decisions_without_evidence": 0,
+  "decisions_requiring_committee": 0,
+  "data_status": "mock"
+}
+

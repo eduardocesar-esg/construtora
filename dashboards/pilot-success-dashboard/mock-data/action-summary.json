@@ -1,0 +1,10 @@
+{
+  "open_actions": 0,
+  "critical_actions": 0,
+  "overdue_actions": 0,
+  "actions_without_owner": 0,
+  "actions_without_due_date": 0,
+  "blocked_actions": 0,
+  "data_status": "mock"
+}
+

@@ -1,0 +1,8 @@
+[
+  { "agent_id": "AGT-STATUS-001", "runs": 0, "reviewed_outputs": 0, "hitl_coverage": "0%", "status": "not_started" },
+  { "agent_id": "AGT-RISK-001", "runs": 0, "reviewed_outputs": 0, "hitl_coverage": "0%", "status": "not_started" },
+  { "agent_id": "AGT-ACTION-001", "runs": 0, "reviewed_outputs": 0, "hitl_coverage": "0%", "status": "not_started" },
+  { "agent_id": "AGT-DECISION-001", "runs": 0, "reviewed_outputs": 0, "hitl_coverage": "0%", "status": "not_started" },
+  { "agent_id": "AGT-EVIDENCE-001", "runs": 0, "reviewed_outputs": 0, "hitl_coverage": "0%", "status": "not_started" }
+]
+

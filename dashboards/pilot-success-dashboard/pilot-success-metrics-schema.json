@@ -1,0 +1,37 @@
+{
+  "title": "Pilot Success Metrics",
+  "type": "object",
+  "required": ["pilot_id", "period", "metrics", "go_no_go"],
+  "properties": {
+    "pilot_id": { "type": "string" },
+    "period": { "type": "string" },
+    "data_status": { "type": "string", "enum": ["mock", "partial", "validated"] },
+    "metrics": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["metric_id", "name", "dimension", "target", "value", "status", "source"],
+        "properties": {
+          "metric_id": { "type": "string" },
+          "name": { "type": "string" },
+          "dimension": { "type": "string" },
+          "target": { "type": "string" },
+          "value": { "type": ["string", "number", "null"] },
+          "status": { "type": "string", "enum": ["green", "yellow", "red", "not_started", "unknown"] },
+          "source": { "type": "string" },
+          "last_update": { "type": "string" }
+        }
+      }
+    },
+    "go_no_go": {
+      "type": "object",
+      "properties": {
+        "recommendation": { "type": "string", "enum": ["go", "adjust", "pause", "no_go"] },
+        "confidence": { "type": "string", "enum": ["low", "medium", "high"] },
+        "requires_human_approval": { "type": "boolean" },
+        "rationale": { "type": "string" }
+      }
+    }
+  }
+}
+

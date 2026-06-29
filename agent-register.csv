@@ -2,4 +2,7 @@ agent_id,name,owner,version,status,github_location,purpose,human_review_required
 AGT-DIAG-001,Agente de Diagnostico da Construtora,PMO Agentico,v0.1,active,agents/AGT-DIAG-001-agent-card.md,Apoiar diagnostico de maturidade dados ritos e dores,yes,per pilot phase,
 AGT-STATUS-001,Agente de Status Executivo de Obras,PMO Agentico,v0.1,active,agents/AGT-STATUS-001-agent-card.md,Apoiar consolidacao de status executivo semanal,yes,weekly,
 AGT-RISK-001,Agente de Riscos Criticos,PMO Agentico,v0.1,active,agents/AGT-RISK-001-agent-card.md,Apoiar identificacao classificacao e acompanhamento de riscos,yes,weekly,
-
+AGT-ACTION-001,Agente de Acoes e Pendencias de Obras,PMO Lead,v1.0,active,agents/AGT-ACTION-001-agent-card.md,Consolidar follow-ups owners prazos bloqueios e pendencias,yes,weekly,
+AGT-DECISION-001,Agente de Registro de Decisoes Executivas,PMO Lead,v1.0,active,agents/AGT-DECISION-001-agent-card.md,Identificar decisoes tomadas pendentes recomendadas e estruturar Decision Log,yes,weekly,
+AGT-EVIDENCE-001,Agente de Evidencias de Obras,PMO Lead,v1.0,active,agents/AGT-EVIDENCE-001-agent-card.md,Organizar evidencias e relacionar documentos a riscos acoes decisoes e status,yes,weekly,
+AGT-PILOTDASH-001,Agente Codex de Dashboard de Sucesso do Piloto,Tech Lead,v1.0,active,agents/AGT-PILOTDASH-001-agent-card.md,Criar especificacao estrutura inicial dados mockados e componentes do dashboard do piloto,yes,per cycle,

@@ -1,0 +1,11 @@
+{
+  "pilot_id": "PMO-AGENTICO-CONSTRUTORA-001",
+  "period": "Ciclo 1 - MVP Controlado",
+  "duration_days": 90,
+  "works_total": 4,
+  "works_active": 4,
+  "status_reports_expected": 16,
+  "status_reports_received": 0,
+  "data_status": "mock"
+}
+

@@ -43,6 +43,7 @@ MVP -> Piloto -> Operacao Assistida -> Evidencia de Valor -> Ajustes -> Segundo 
 | `slack/` | Estrutura de canais e mensagens operacionais |
 | `dashboards/` | Especificacao do dashboard executivo |
 | `governance/` | RACI, politica HITL, governanca de prompts e ciclo de vida |
+| `registers/` | Logs operacionais da Fase 2 para riscos, acoes, decisoes, evidencias e metricas |
 | `*-register.csv` | Registros governados de artefatos, agentes, prompts, riscos, decisoes, acoes e evidencias |
 
 ## Principios de Governanca
@@ -53,3 +54,10 @@ MVP -> Piloto -> Operacao Assistida -> Evidencia de Valor -> Ajustes -> Segundo 
 - Prompts, templates e dashboards devem evoluir por versao, com historico e aprovacao.
 - O piloto deve comecar pequeno, mensuravel e auditavel.
 
+## Fase 2 - Ciclo Operacional Governado
+
+A Fase 2 aprofunda o fluxo operacional minimo:
+
+Status -> Risco -> Acao -> Decisao -> Evidencia -> Dashboard de Sucesso do Piloto
+
+Essa fase implanta os agentes PRM-RISK-001, PRM-ACTION-001, PRM-DECISION-001, PRM-EVIDENCE-001 e PRM-PILOTDASH-001, mantendo revisao humana obrigatoria antes de alteracao de dados criticos, envio ao sponsor ou publicacao executiva.

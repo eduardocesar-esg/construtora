@@ -2,4 +2,8 @@ prompt_id,name,owner,version,status,github_location,related_agent,review_cycle,l
 PRM-BOOTSTRAP-001,Codex repository setup,PMO Agentico,v0.1,active,prompts/PRM-BOOTSTRAP-001-codex-repository-setup.md,,monthly,,Repository structure created
 PRM-DIAG-001,Diagnostico construtora,PMO Agentico,v0.1,active,prompts/PRM-DIAG-001-diagnostico-construtora.md,AGT-DIAG-001,per pilot phase,,Diagnostic template approved
 PRM-STATUS-001,Status report obras,PMO Agentico,v0.1,active,prompts/PRM-STATUS-001-status-report-obras.md,AGT-STATUS-001,weekly,,Status report reviewed by PMO
-
+PRM-RISK-001,Agente de riscos de obras,PMO Lead,v1.0,active,prompts/PRM-RISK-001-risk-agent-obras.md,AGT-RISK-001,weekly,,Risk Analysis Report reviewed by PMO
+PRM-ACTION-001,Agente de acoes e pendencias de obras,PMO Lead,v1.0,active,prompts/PRM-ACTION-001-action-agent-obras.md,AGT-ACTION-001,weekly,,Action Review Report reviewed by PMO
+PRM-DECISION-001,Agente de registro de decisoes executivas,PMO Lead,v1.0,active,prompts/PRM-DECISION-001-decision-log-agent.md,AGT-DECISION-001,weekly,,Decision Brief reviewed by PMO
+PRM-EVIDENCE-001,Agente de evidencias de obras,PMO Lead,v1.0,active,prompts/PRM-EVIDENCE-001-evidence-agent-obras.md,AGT-EVIDENCE-001,weekly,,Evidence Pack reviewed by PMO
+PRM-PILOTDASH-001,Codex Pilot Success Dashboard,Tech Lead,v1.0,active,prompts/PRM-PILOTDASH-001-pilot-success-dashboard-codex.md,AGT-PILOTDASH-001,per cycle,,Dashboard spec reviewed by sponsor and PMO
