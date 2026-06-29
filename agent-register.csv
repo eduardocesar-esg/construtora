@@ -1,0 +1,5 @@
+agent_id,name,owner,version,status,github_location,purpose,human_review_required,review_cycle,last_review
+AGT-DIAG-001,Agente de Diagnostico da Construtora,PMO Agentico,v0.1,active,agents/AGT-DIAG-001-agent-card.md,Apoiar diagnostico de maturidade dados ritos e dores,yes,per pilot phase,
+AGT-STATUS-001,Agente de Status Executivo de Obras,PMO Agentico,v0.1,active,agents/AGT-STATUS-001-agent-card.md,Apoiar consolidacao de status executivo semanal,yes,weekly,
+AGT-RISK-001,Agente de Riscos Criticos,PMO Agentico,v0.1,active,agents/AGT-RISK-001-agent-card.md,Apoiar identificacao classificacao e acompanhamento de riscos,yes,weekly,
+

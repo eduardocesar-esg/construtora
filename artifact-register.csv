@@ -1,0 +1,6 @@
+artifact_id,name,type,owner,version,status,github_location,evidence,review_cycle,last_review
+ART-CHARTER-001,Termo do Piloto,charter,PMO Agentico,v0.1,draft,pilot-charter.md,,per cycle,
+ART-RACI-001,RACI do Piloto,governance,PMO Agentico,v0.1,draft,governance/raci.md,,per cycle,
+ART-HITL-001,Politica HITL,governance,PMO Agentico,v0.1,draft,governance/hitl-policy.md,,monthly,
+ART-DASH-001,Dashboard Executivo Inicial,dashboard,PMO Agentico,v0.1,draft,dashboards/executive-dashboard-spec.md,,per cycle,
+

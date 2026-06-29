@@ -1,0 +1,5 @@
+prompt_id,name,owner,version,status,github_location,related_agent,review_cycle,last_review,evidence
+PRM-BOOTSTRAP-001,Codex repository setup,PMO Agentico,v0.1,active,prompts/PRM-BOOTSTRAP-001-codex-repository-setup.md,,monthly,,Repository structure created
+PRM-DIAG-001,Diagnostico construtora,PMO Agentico,v0.1,active,prompts/PRM-DIAG-001-diagnostico-construtora.md,AGT-DIAG-001,per pilot phase,,Diagnostic template approved
+PRM-STATUS-001,Status report obras,PMO Agentico,v0.1,active,prompts/PRM-STATUS-001-status-report-obras.md,AGT-STATUS-001,weekly,,Status report reviewed by PMO
+
