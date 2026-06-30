@@ -11,3 +11,5 @@ AGT-SLACKCOCKPIT-001,Agente Slack Cockpit de Obras,PMO Lead,v1.0,active,agents/A
 AGT-HITLQA-001,Agente Human Review Quality Gate,AI Governance Lead,v1.0,active,agents/AGT-HITLQA-001-agent-card.md,Criar politica checklist matriz de aprovacao e log de qualidade HITL,yes,monthly,
 AGT-QBRVALUE-001,Agente QBR Value Report,PMO Lead,v1.0,active,agents/AGT-QBRVALUE-001-agent-card.md,Consolidar valor licoes aprendidas business case e recomendacao executiva,yes,per cycle,
 AGT-ROLLOUT-001,Agente Rollout por Ondas,PMO Lead,v1.0,active,agents/AGT-ROLLOUT-001-agent-card.md,Avaliar prontidao Go No-Go e estruturar plano de expansao por ondas,yes,per cycle,
+AGT-SETUP-001,Agente de Setup Controlado do Piloto,PMO Lead,v1.0,active,agents/AGT-SETUP-001-agent-card.md,Executar Sprint 0 criar base operacional validar dados minimos e preparar primeira rodada assistida,yes,per setup,
+AGT-SPRINT-001,Agente de Execucao Assistida Sprint 1,PMO Lead,v1.0,active,agents/AGT-SPRINT-001-agent-card.md,Conduzir primeira execucao assistida estabilizacao Sprint 1.1 e preparacao da cadencia semanal,yes,per sprint,

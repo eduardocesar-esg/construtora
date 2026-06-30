@@ -1,0 +1,27 @@
+{
+  "title": "pre-publication-review-log",
+  "type": "object",
+  "required": ["review_id", "date", "output_ref", "output_type", "reviewer", "status", "approved_for_publication"],
+  "properties": {
+    "review_id": { "type": "string", "examples": ["PUB-0001"] },
+    "date": { "type": "string" },
+    "output_ref": { "type": "string" },
+    "output_type": { "type": "string" },
+    "agent_id": { "type": "string" },
+    "prompt_id": { "type": "string" },
+    "reviewer": { "type": "string" },
+    "status": { "type": "string", "enum": ["Aprovado", "Aprovado com ajustes", "Bloqueado"] },
+    "facts_hypothesis_recommendation_ok": { "type": "boolean" },
+    "evidence_indicated": { "type": "boolean" },
+    "gaps_declared": { "type": "boolean" },
+    "sensitive_data_risk": { "type": "boolean" },
+    "critical_decision": { "type": "boolean" },
+    "contractual_impact": { "type": "boolean" },
+    "baseline_impact": { "type": "boolean" },
+    "completed_action_without_evidence": { "type": "boolean" },
+    "hitl_reviewed": { "type": "boolean" },
+    "approved_for_publication": { "type": "boolean" },
+    "notes": { "type": "string" }
+  }
+}
+

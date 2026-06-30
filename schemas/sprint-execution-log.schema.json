@@ -1,0 +1,22 @@
+{
+  "title": "sprint-execution-log",
+  "type": "object",
+  "required": ["sprint_id", "date", "phase", "worksite", "step", "action", "owner", "status"],
+  "properties": {
+    "sprint_id": { "type": "string", "examples": ["SPR-0001"] },
+    "date": { "type": "string" },
+    "phase": { "type": "string", "enum": ["Sprint 1", "Sprint 1.1"] },
+    "worksite": { "type": "string" },
+    "step": { "type": "string" },
+    "action": { "type": "string" },
+    "owner": { "type": "string" },
+    "status": { "type": "string", "enum": ["Pendente", "Em andamento", "Concluido", "Bloqueado"] },
+    "output_ref": { "type": "string" },
+    "run_id": { "type": "string" },
+    "review_id": { "type": "string" },
+    "blocker": { "type": "string" },
+    "next_action": { "type": "string" },
+    "notes": { "type": "string" }
+  }
+}
+

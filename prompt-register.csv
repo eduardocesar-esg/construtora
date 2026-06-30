@@ -12,3 +12,7 @@ PRM-SLACKCOCKPIT-001,Slack Cockpit de Obras para PMO Agentico,PMO Lead,v1.0,acti
 PRM-HITLQA-001,Human Review Quality Gate,AI Governance Lead,v1.0,active,prompts/PRM-HITLQA-001-human-review-quality-gate.md,AGT-HITLQA-001,monthly,,Quality gate approved by governance
 PRM-QBRVALUE-001,Agente de QBR e Relatorio de Valor do Piloto,PMO Lead,v1.0,active,prompts/PRM-QBRVALUE-001-qbr-value-report.md,AGT-QBRVALUE-001,per cycle,,QBR Value Report reviewed by sponsor
 PRM-ROLLOUT-001,Planejamento de Rollout por Ondas,PMO Lead,v1.0,active,prompts/PRM-ROLLOUT-001-wave-rollout-planning.md,AGT-ROLLOUT-001,per cycle,,Rollout readiness reviewed by sponsor
+PRM-SETUPMASTER-001,Prompt Mestre de Setup Controlado do Piloto,PMO Lead,v1.0,active,prompts/PRM-SETUPMASTER-001-setup-controlado-piloto.md,AGT-SETUP-001,per setup,,Sprint 0 setup reviewed by PMO
+PRM-PREPUBLICATION-001,Checklist de Validacao Antes de Publicar Output,AI Governance Lead,v1.0,active,prompts/PRM-PREPUBLICATION-001-output-publication-checklist.md,AGT-HITLQA-001,per output,,Pre-publication validation applied
+PRM-SPRINT1-001,Primeira Execucao Assistida do Piloto,PMO Lead,v1.0,active,prompts/PRM-SPRINT1-001-first-assisted-execution.md,AGT-SPRINT-001,per sprint,,First assisted execution reviewed
+PRM-SPRINT11-001,Estabilizacao e Ajustes Sprint 1.1,PMO Lead,v1.0,active,prompts/PRM-SPRINT11-001-stabilization-adjustments.md,AGT-SPRINT-001,per sprint,,Sprint 1.1 stabilization reviewed

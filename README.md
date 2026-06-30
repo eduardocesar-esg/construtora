@@ -73,3 +73,29 @@ Entregaveis principais:
 - Quality Gate HITL em `governance/`.
 - QBR Value Report e Rollout Recommendation em `reports/`.
 - Prompts oficiais PRM-REGFACTORY-001 a PRM-ROLLOUT-001.
+
+## Fase 4 - Execucao Controlada do Setup
+
+A Fase 4 operacionaliza o setup inicial antes do uso amplo de dados reais. O piloto comeca com 1 obra, dados minimos, execucao assistida por Codex e validacao humana antes de qualquer publicacao executiva.
+
+Entregaveis principais:
+
+- Prompt mestre e Sprint 0 em `codex/`.
+- Checklist bloqueante de publicacao em `governance/pre-publication-validation-checklist.md`.
+- Intake de dados minimos da obra em `docs/minimum-worksite-data.md`.
+- Plano de 10 dias uteis em `docs/next-10-business-days-plan.md`.
+- Logs de execucao controlada em `registers/setup-execution-log.csv` e `registers/pre-publication-review-log.csv`.
+
+## Sprint 1 e Sprint 1.1 - Primeira Execucao Assistida
+
+Depois do setup controlado, o piloto entra na primeira execucao operacional com 1 obra piloto.
+
+- Sprint 1: gerar a primeira linha de base operacional com diagnostico, status, riscos, acoes, decisoes, evidencias e revisao HITL.
+- Sprint 1.1: corrigir lacunas, ajustar prompts/templates/registers e preparar a cadencia semanal recorrente.
+
+Entregaveis principais:
+
+- Runbooks em `codex/sprint-1-first-assisted-execution.md` e `codex/sprint-1-1-stabilization-cycle.md`.
+- Plano executivo em `docs/sprint-1-and-1-1-execution-plan.md`.
+- Registro de execucao em `registers/sprint-execution-log.csv`.
+- Template de review em `templates/sprint-review-template.md`.

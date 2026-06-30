@@ -1,0 +1,18 @@
+{
+  "title": "setup-execution-log",
+  "type": "object",
+  "required": ["setup_id", "date", "step", "action", "owner", "status"],
+  "properties": {
+    "setup_id": { "type": "string", "examples": ["SETUP-0001"] },
+    "date": { "type": "string" },
+    "step": { "type": "string" },
+    "action": { "type": "string" },
+    "owner": { "type": "string" },
+    "status": { "type": "string", "enum": ["Pendente", "Em andamento", "Concluido", "Bloqueado"] },
+    "evidence": { "type": "string" },
+    "blocker": { "type": "string" },
+    "next_action": { "type": "string" },
+    "notes": { "type": "string" }
+  }
+}
+
