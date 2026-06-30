@@ -1,0 +1,28 @@
+{
+  "title": "status-report",
+  "type": "object",
+  "required": ["status_id", "project_id", "obra", "periodo", "status_geral", "human_review_status"],
+  "properties": {
+    "status_id": { "type": "string", "examples": ["STS-0001"] },
+    "project_id": { "type": "string" },
+    "obra": { "type": "string" },
+    "periodo": { "type": "string" },
+    "status_prazo": { "type": "string", "enum": ["Verde", "Amarelo", "Vermelho"] },
+    "status_custo": { "type": "string", "enum": ["Verde", "Amarelo", "Vermelho"] },
+    "status_qualidade": { "type": "string", "enum": ["Verde", "Amarelo", "Vermelho"] },
+    "status_seguranca": { "type": "string", "enum": ["Verde", "Amarelo", "Vermelho"] },
+    "status_suprimentos": { "type": "string", "enum": ["Verde", "Amarelo", "Vermelho"] },
+    "status_contratos": { "type": "string", "enum": ["Verde", "Amarelo", "Vermelho"] },
+    "status_geral": { "type": "string", "enum": ["Verde", "Amarelo", "Vermelho"] },
+    "resumo_executivo": { "type": "string" },
+    "principais_desvios": { "type": "string" },
+    "principais_riscos": { "type": "string" },
+    "acoes_pendentes": { "type": "string" },
+    "decisoes_necessarias": { "type": "string" },
+    "evidence_id": { "type": "string" },
+    "human_review_status": { "type": "string", "enum": ["Pendente", "Aprovado", "Aprovado com ajustes", "Reprovado"] },
+    "owner": { "type": "string" },
+    "data_registro": { "type": "string" }
+  }
+}
+

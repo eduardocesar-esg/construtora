@@ -1,0 +1,24 @@
+{
+  "title": "action-log",
+  "type": "object",
+  "required": ["action_id", "project_id", "obra", "acao", "owner", "prazo", "status", "criticidade"],
+  "properties": {
+    "action_id": { "type": "string", "examples": ["ACT-0001"] },
+    "project_id": { "type": "string" },
+    "obra": { "type": "string" },
+    "acao": { "type": "string" },
+    "origem": { "type": "string" },
+    "owner": { "type": "string" },
+    "prazo": { "type": "string" },
+    "status": { "type": "string", "enum": ["Aberto", "Em andamento", "Concluido", "Bloqueado", "Cancelado"] },
+    "criticidade": { "type": "string", "enum": ["Baixa", "Media", "Alta", "Critica"] },
+    "bloqueio": { "type": "string" },
+    "relacionado_a": { "type": "string" },
+    "risk_id": { "type": "string" },
+    "decision_id": { "type": "string" },
+    "evidence_id": { "type": "string" },
+    "proximo_passo": { "type": "string" },
+    "data_atualizacao": { "type": "string" }
+  }
+}
+

@@ -1,3 +1,2 @@
-evidence_id,obra,tipo,descricao,fonte,data,relacionado_a,related_id,qualidade,owner,status,observacao,last_review,reviewer,notes
-EVD-0001,,,,,,,,,,,,,,
-
+evidence_id,project_id,obra,tipo,descricao,fonte,data,relacionado_a,related_id,qualidade,owner,status,observacao
+EVD-0001,,,,,,,,,,,,

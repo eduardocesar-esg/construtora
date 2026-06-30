@@ -1,0 +1,30 @@
+{
+  "title": "obra-status-register",
+  "type": "object",
+  "required": ["status_id", "project_id", "obra", "periodo", "status_geral", "human_review_status", "owner"],
+  "properties": {
+    "status_id": { "type": "string", "examples": ["STS-0001"] },
+    "project_id": { "type": "string" },
+    "obra": { "type": "string" },
+    "periodo": { "type": "string" },
+    "avanco_fisico_planejado": { "type": "number" },
+    "avanco_fisico_realizado": { "type": "number" },
+    "avanco_financeiro_planejado": { "type": "number" },
+    "avanco_financeiro_realizado": { "type": "number" },
+    "status_prazo": { "type": "string", "enum": ["Verde", "Amarelo", "Vermelho"] },
+    "status_custo": { "type": "string", "enum": ["Verde", "Amarelo", "Vermelho"] },
+    "status_qualidade": { "type": "string", "enum": ["Verde", "Amarelo", "Vermelho"] },
+    "status_seguranca": { "type": "string", "enum": ["Verde", "Amarelo", "Vermelho"] },
+    "status_suprimentos": { "type": "string", "enum": ["Verde", "Amarelo", "Vermelho"] },
+    "status_contratos": { "type": "string", "enum": ["Verde", "Amarelo", "Vermelho"] },
+    "status_geral": { "type": "string", "enum": ["Verde", "Amarelo", "Vermelho"] },
+    "principais_desvios": { "type": "string" },
+    "principais_riscos": { "type": "string" },
+    "decisoes_necessarias": { "type": "string" },
+    "evidence_id": { "type": "string" },
+    "human_review_status": { "type": "string", "enum": ["Pendente", "Aprovado", "Aprovado com ajustes", "Reprovado"] },
+    "owner": { "type": "string" },
+    "data_registro": { "type": "string" }
+  }
+}
+

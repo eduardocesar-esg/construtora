@@ -1,3 +1,2 @@
-action_id,obra,acao,origem,owner,prazo,status,criticidade,bloqueio,relacionado_a,evidence_id,decision_id,proximo_passo,last_review,reviewer,notes
+action_id,project_id,obra,acao,origem,owner,prazo,status,criticidade,bloqueio,relacionado_a,risk_id,decision_id,evidence_id,proximo_passo,data_atualizacao
 ACT-0001,,,,,,,,,,,,,,,
-

@@ -61,3 +61,15 @@ A Fase 2 aprofunda o fluxo operacional minimo:
 Status -> Risco -> Acao -> Decisao -> Evidencia -> Dashboard de Sucesso do Piloto
 
 Essa fase implanta os agentes PRM-RISK-001, PRM-ACTION-001, PRM-DECISION-001, PRM-EVIDENCE-001 e PRM-PILOTDASH-001, mantendo revisao humana obrigatoria antes de alteracao de dados criticos, envio ao sponsor ou publicacao executiva.
+
+## Fase 3 - Industrializacao do Piloto
+
+A Fase 3 transforma o piloto em um sistema governado e escalavel, com registers padronizados, schemas, data contracts, cockpit Slack/Teams, quality gate HITL, relatorio executivo de valor e preparacao para rollout por ondas.
+
+Entregaveis principais:
+
+- Register Factory em `registers/`, `schemas/` e `data-contracts/`.
+- Cockpit operacional em `slack/`.
+- Quality Gate HITL em `governance/`.
+- QBR Value Report e Rollout Recommendation em `reports/`.
+- Prompts oficiais PRM-REGFACTORY-001 a PRM-ROLLOUT-001.

@@ -1,10 +1,2 @@
-metric_id,metric_name,dimension,description,target,current_value,status,source,update_frequency,owner,last_update,notes
-MET-001,status_reports_on_time,adoption,Percentual de status reports semanais emitidos no prazo,100%,,not_started,status reports,weekly,PMO Lead,,
-MET-002,critical_risks_with_owner,risk,Percentual de riscos criticos com owner definido,90%,,not_started,risk register,weekly,PMO Lead,,
-MET-003,actions_with_due_date,action,Percentual de acoes com prazo definido,90%,,not_started,action log,weekly,PMO Lead,,
-MET-004,decisions_with_evidence,decision,Percentual de decisoes com evidencia associada,95%,,not_started,decision log,weekly,PMO Lead,,
-MET-005,evidence_readiness,evidence,Percentual de itens criticos com evidencia suficiente,80%,,not_started,evidence log,weekly,PMO Lead,,
-MET-006,hitl_review_coverage,governance,Percentual de saidas criticas revisadas por humano,100%,,not_started,agent output review log,weekly,PMO Lead,,
-MET-007,sponsor_feedback,feedback,Avaliacao qualitativa do sponsor,positive,,not_started,feedback summary,per cycle,Sponsor,,
-MET-008,go_no_go_recommendation,decision,Recomendacao estruturada de continuidade,go_adjust_pause,,not_started,pilot dashboard,per cycle,Sponsor,,
-
+metric_id,periodo,obras_piloto,adoption_score,agent_usage_score,evidence_score,hitl_quality_score,risk_control_score,action_health_score,decision_traceability_score,sponsor_feedback_score,pilot_success_score,go_no_go_recommendation,observacao
+MET-001,,,,,,,,,,,,,

@@ -1,0 +1,3 @@
+run_id,agent_id,prompt_id,obra,input_ref,output_ref,data_execucao,executado_por,status,tokens_estimados,custo_estimado,erro,observacao
+RUN-0001,,,,,,,,,,,,
+

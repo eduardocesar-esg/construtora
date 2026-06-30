@@ -1,0 +1,22 @@
+{
+  "title": "project-register",
+  "type": "object",
+  "required": ["project_id", "obra", "status_geral", "fase", "owner"],
+  "properties": {
+    "project_id": { "type": "string", "examples": ["PRJ-0001"] },
+    "obra": { "type": "string", "examples": ["Obra 001"] },
+    "cliente": { "type": "string" },
+    "gerente_obra": { "type": "string" },
+    "sponsor": { "type": "string" },
+    "data_inicio": { "type": "string" },
+    "data_fim_planejada": { "type": "string" },
+    "status_geral": { "type": "string", "enum": ["Verde", "Amarelo", "Vermelho"] },
+    "fase": { "type": "string" },
+    "contrato": { "type": "string" },
+    "valor_contrato": { "type": "number" },
+    "ultima_atualizacao": { "type": "string" },
+    "owner": { "type": "string" },
+    "observacoes": { "type": "string" }
+  }
+}
+

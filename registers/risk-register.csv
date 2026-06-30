@@ -1,3 +1,2 @@
-risk_id,obra,categoria,risco,causa,impacto,probabilidade,impacto_score,severidade,classificacao,owner,status,resposta_recomendada,evidence_id,decision_required,last_review,reviewer,notes
-RSK-0001,,,,,,,,,,,,,,,,,
-
+risk_id,project_id,obra,categoria,risco,causa,impacto,probabilidade,impacto_score,severidade,classificacao,owner,status,resposta_recomendada,plano_resposta,decision_required,evidence_id,ultima_revisao,proxima_revisao
+RSK-0001,,,,,,,,,,,,,,,,,,

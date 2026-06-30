@@ -6,3 +6,8 @@ AGT-ACTION-001,Agente de Acoes e Pendencias de Obras,PMO Lead,v1.0,active,agents
 AGT-DECISION-001,Agente de Registro de Decisoes Executivas,PMO Lead,v1.0,active,agents/AGT-DECISION-001-agent-card.md,Identificar decisoes tomadas pendentes recomendadas e estruturar Decision Log,yes,weekly,
 AGT-EVIDENCE-001,Agente de Evidencias de Obras,PMO Lead,v1.0,active,agents/AGT-EVIDENCE-001-agent-card.md,Organizar evidencias e relacionar documentos a riscos acoes decisoes e status,yes,weekly,
 AGT-PILOTDASH-001,Agente Codex de Dashboard de Sucesso do Piloto,Tech Lead,v1.0,active,agents/AGT-PILOTDASH-001-agent-card.md,Criar especificacao estrutura inicial dados mockados e componentes do dashboard do piloto,yes,per cycle,
+AGT-REGFACTORY-001,Agente Codex Register Factory,Tech Lead,v1.0,active,agents/AGT-REGFACTORY-001-agent-card.md,Criar registers padronizados schemas JSON data contracts e validacoes basicas,yes,per cycle,
+AGT-SLACKCOCKPIT-001,Agente Slack Cockpit de Obras,PMO Lead,v1.0,active,agents/AGT-SLACKCOCKPIT-001-agent-card.md,Estruturar canais mensagens alertas workflows e escalonamento Slack ou Teams,yes,per cycle,
+AGT-HITLQA-001,Agente Human Review Quality Gate,AI Governance Lead,v1.0,active,agents/AGT-HITLQA-001-agent-card.md,Criar politica checklist matriz de aprovacao e log de qualidade HITL,yes,monthly,
+AGT-QBRVALUE-001,Agente QBR Value Report,PMO Lead,v1.0,active,agents/AGT-QBRVALUE-001-agent-card.md,Consolidar valor licoes aprendidas business case e recomendacao executiva,yes,per cycle,
+AGT-ROLLOUT-001,Agente Rollout por Ondas,PMO Lead,v1.0,active,agents/AGT-ROLLOUT-001-agent-card.md,Avaliar prontidao Go No-Go e estruturar plano de expansao por ondas,yes,per cycle,

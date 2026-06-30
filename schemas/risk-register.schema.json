@@ -1,0 +1,27 @@
+{
+  "title": "risk-register",
+  "type": "object",
+  "required": ["risk_id", "project_id", "obra", "categoria", "risco", "classificacao", "owner", "status"],
+  "properties": {
+    "risk_id": { "type": "string", "examples": ["RSK-0001"] },
+    "project_id": { "type": "string" },
+    "obra": { "type": "string" },
+    "categoria": { "type": "string" },
+    "risco": { "type": "string" },
+    "causa": { "type": "string" },
+    "impacto": { "type": "string" },
+    "probabilidade": { "type": "integer", "minimum": 1, "maximum": 5 },
+    "impacto_score": { "type": "integer", "minimum": 1, "maximum": 5 },
+    "severidade": { "type": "integer", "minimum": 1, "maximum": 25 },
+    "classificacao": { "type": "string", "enum": ["Baixo", "Medio", "Alto", "Critico"] },
+    "owner": { "type": "string" },
+    "status": { "type": "string", "enum": ["Aberto", "Em andamento", "Concluido", "Bloqueado", "Cancelado"] },
+    "resposta_recomendada": { "type": "string" },
+    "plano_resposta": { "type": "string" },
+    "decision_required": { "type": "string", "enum": ["Sim", "Nao"] },
+    "evidence_id": { "type": "string" },
+    "ultima_revisao": { "type": "string" },
+    "proxima_revisao": { "type": "string" }
+  }
+}
+

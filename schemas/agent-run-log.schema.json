@@ -1,0 +1,21 @@
+{
+  "title": "agent-run-log",
+  "type": "object",
+  "required": ["run_id", "agent_id", "prompt_id", "data_execucao", "executado_por", "status"],
+  "properties": {
+    "run_id": { "type": "string", "examples": ["RUN-0001"] },
+    "agent_id": { "type": "string" },
+    "prompt_id": { "type": "string" },
+    "obra": { "type": "string" },
+    "input_ref": { "type": "string" },
+    "output_ref": { "type": "string" },
+    "data_execucao": { "type": "string" },
+    "executado_por": { "type": "string" },
+    "status": { "type": "string", "enum": ["Sucesso", "Erro", "Pendente", "Cancelado"] },
+    "tokens_estimados": { "type": "number" },
+    "custo_estimado": { "type": "number" },
+    "erro": { "type": "string" },
+    "observacao": { "type": "string" }
+  }
+}
+

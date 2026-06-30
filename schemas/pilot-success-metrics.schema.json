@@ -1,0 +1,22 @@
+{
+  "title": "pilot-success-metrics",
+  "type": "object",
+  "required": ["metric_id", "periodo", "pilot_success_score", "go_no_go_recommendation"],
+  "properties": {
+    "metric_id": { "type": "string", "examples": ["MET-001"] },
+    "periodo": { "type": "string" },
+    "obras_piloto": { "type": "integer" },
+    "adoption_score": { "type": "number", "minimum": 0, "maximum": 5 },
+    "agent_usage_score": { "type": "number", "minimum": 0, "maximum": 5 },
+    "evidence_score": { "type": "number", "minimum": 0, "maximum": 5 },
+    "hitl_quality_score": { "type": "number", "minimum": 0, "maximum": 5 },
+    "risk_control_score": { "type": "number", "minimum": 0, "maximum": 5 },
+    "action_health_score": { "type": "number", "minimum": 0, "maximum": 5 },
+    "decision_traceability_score": { "type": "number", "minimum": 0, "maximum": 5 },
+    "sponsor_feedback_score": { "type": "number", "minimum": 0, "maximum": 5 },
+    "pilot_success_score": { "type": "number", "minimum": 0, "maximum": 5 },
+    "go_no_go_recommendation": { "type": "string", "enum": ["No-Go", "Go com correcoes obrigatorias", "Go com ressalvas", "Go para expansao"] },
+    "observacao": { "type": "string" }
+  }
+}
+

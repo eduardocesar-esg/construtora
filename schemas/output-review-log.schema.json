@@ -1,0 +1,21 @@
+{
+  "title": "output-review-log",
+  "type": "object",
+  "required": ["review_id", "run_id", "agent_id", "prompt_id", "reviewer", "review_status"],
+  "properties": {
+    "review_id": { "type": "string", "examples": ["REV-0001"] },
+    "run_id": { "type": "string" },
+    "agent_id": { "type": "string" },
+    "prompt_id": { "type": "string" },
+    "obra": { "type": "string" },
+    "output_type": { "type": "string" },
+    "reviewer": { "type": "string" },
+    "review_status": { "type": "string", "enum": ["Aprovado", "Aprovado com ajustes", "Reprovado", "Pendente", "Bloqueado por falta de evidencia", "Bloqueado por risco juridico", "Bloqueado por dado sensivel", "Bloqueado por inconsistencia"] },
+    "ajustes_solicitados": { "type": "string" },
+    "aprovado_para_publicacao": { "type": "boolean" },
+    "data_review": { "type": "string" },
+    "evidence_id": { "type": "string" },
+    "observacao": { "type": "string" }
+  }
+}
+

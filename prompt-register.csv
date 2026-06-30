@@ -7,3 +7,8 @@ PRM-ACTION-001,Agente de acoes e pendencias de obras,PMO Lead,v1.0,active,prompt
 PRM-DECISION-001,Agente de registro de decisoes executivas,PMO Lead,v1.0,active,prompts/PRM-DECISION-001-decision-log-agent.md,AGT-DECISION-001,weekly,,Decision Brief reviewed by PMO
 PRM-EVIDENCE-001,Agente de evidencias de obras,PMO Lead,v1.0,active,prompts/PRM-EVIDENCE-001-evidence-agent-obras.md,AGT-EVIDENCE-001,weekly,,Evidence Pack reviewed by PMO
 PRM-PILOTDASH-001,Codex Pilot Success Dashboard,Tech Lead,v1.0,active,prompts/PRM-PILOTDASH-001-pilot-success-dashboard-codex.md,AGT-PILOTDASH-001,per cycle,,Dashboard spec reviewed by sponsor and PMO
+PRM-REGFACTORY-001,Codex Register Factory para Construtora,Tech Lead,v1.0,active,prompts/PRM-REGFACTORY-001-register-factory-codex.md,AGT-REGFACTORY-001,per cycle,,Registers schemas and data contracts reviewed
+PRM-SLACKCOCKPIT-001,Slack Cockpit de Obras para PMO Agentico,PMO Lead,v1.0,active,prompts/PRM-SLACKCOCKPIT-001-slack-cockpit-obras.md,AGT-SLACKCOCKPIT-001,per cycle,,Slack cockpit architecture reviewed
+PRM-HITLQA-001,Human Review Quality Gate,AI Governance Lead,v1.0,active,prompts/PRM-HITLQA-001-human-review-quality-gate.md,AGT-HITLQA-001,monthly,,Quality gate approved by governance
+PRM-QBRVALUE-001,Agente de QBR e Relatorio de Valor do Piloto,PMO Lead,v1.0,active,prompts/PRM-QBRVALUE-001-qbr-value-report.md,AGT-QBRVALUE-001,per cycle,,QBR Value Report reviewed by sponsor
+PRM-ROLLOUT-001,Planejamento de Rollout por Ondas,PMO Lead,v1.0,active,prompts/PRM-ROLLOUT-001-wave-rollout-planning.md,AGT-ROLLOUT-001,per cycle,,Rollout readiness reviewed by sponsor

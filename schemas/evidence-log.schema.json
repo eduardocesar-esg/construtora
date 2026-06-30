@@ -1,0 +1,21 @@
+{
+  "title": "evidence-log",
+  "type": "object",
+  "required": ["evidence_id", "project_id", "obra", "tipo", "descricao", "fonte", "qualidade", "status"],
+  "properties": {
+    "evidence_id": { "type": "string", "examples": ["EVD-0001"] },
+    "project_id": { "type": "string" },
+    "obra": { "type": "string" },
+    "tipo": { "type": "string" },
+    "descricao": { "type": "string" },
+    "fonte": { "type": "string" },
+    "data": { "type": "string" },
+    "relacionado_a": { "type": "string" },
+    "related_id": { "type": "string" },
+    "qualidade": { "type": "string", "enum": ["Forte", "Media", "Fraca", "Ausente", "Inconsistente"] },
+    "owner": { "type": "string" },
+    "status": { "type": "string", "enum": ["Pendente", "Validado", "Rejeitado", "Substituido"] },
+    "observacao": { "type": "string" }
+  }
+}
+

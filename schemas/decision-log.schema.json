@@ -1,0 +1,26 @@
+{
+  "title": "decision-log",
+  "type": "object",
+  "required": ["decision_id", "project_id", "obra", "tipo", "nivel", "decisao", "status"],
+  "properties": {
+    "decision_id": { "type": "string", "examples": ["DEC-0001"] },
+    "project_id": { "type": "string" },
+    "obra": { "type": "string" },
+    "tipo": { "type": "string" },
+    "nivel": { "type": "string", "enum": ["Operacional", "Gerencial", "Executiva", "Critica"] },
+    "decisao": { "type": "string" },
+    "contexto": { "type": "string" },
+    "opcoes": { "type": "string" },
+    "recomendacao": { "type": "string" },
+    "owner": { "type": "string" },
+    "prazo": { "type": "string" },
+    "impacto": { "type": "string" },
+    "status": { "type": "string", "enum": ["Pendente", "Aprovado", "Aprovado com ajustes", "Reprovado"] },
+    "evidence_id": { "type": "string" },
+    "risk_id": { "type": "string" },
+    "action_id": { "type": "string" },
+    "aprovado_por": { "type": "string" },
+    "data_decisao": { "type": "string" }
+  }
+}
+
